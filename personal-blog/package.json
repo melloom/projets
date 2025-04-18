@@ -1,0 +1,31 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A personal blog application where the owner can post articles and users can comment and share.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "client": "npm start --prefix src",
+    "build": "npm run build --prefix src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "blog",
+    "personal",
+    "comments",
+    "sharing"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

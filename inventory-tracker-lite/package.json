@@ -1,0 +1,27 @@
+{
+  "name": "inventory-tracker-lite",
+  "version": "1.0.0",
+  "description": "A simple inventory tracker application for small businesses and hobbyists.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "inventory",
+    "tracker",
+    "react",
+    "localStorage"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/yourusername/inventory-tracker-lite"
+}

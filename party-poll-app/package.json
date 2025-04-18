@@ -1,0 +1,28 @@
+{
+  "name": "party-poll-app",
+  "version": "1.0.0",
+  "description": "A fun voting app for creating and sharing polls.",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^9.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0"
+  },
+  "keywords": [
+    "poll",
+    "voting",
+    "react",
+    "firebase"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

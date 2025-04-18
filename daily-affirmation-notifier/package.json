@@ -1,0 +1,20 @@
+{
+  "name": "daily-affirmation-notifier",
+  "version": "1.0.0",
+  "description": "A mental-wellness tool that provides daily uplifting affirmations.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "affirmation",
+    "mental wellness",
+    "notification"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
